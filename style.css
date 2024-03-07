@@ -1,0 +1,382 @@
+html {
+    height: 100%;
+}
+
+.dm-serif display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.logo {
+    max-height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: #35a596;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul .lastNav {
+    padding-right: 70px;
+}
+
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "DM Serif Display", serif;
+    font-size: 180%;
+    font-weight: 150%;
+    text-shadow: 1px 0px 4px black;
+}
+
+.dropdownList {
+    display: none;
+    position: absolute;
+    background-color: #bbeae3;
+    min-width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownList a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    font-size: 100%;
+    text-shadow: none;
+
+}
+
+.dropdownList a:hover {
+    background-color: #35a596;
+    color: white;
+
+}
+
+.dropdown:hover .dropdownList {
+    display: block;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    color: #01161e;
+    text-shadow: 2px 0px 8px #598392;
+    font-size: 175%;
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: #bbeae3;
+    margin: 0;
+}
+
+main {
+    align-items: center;
+    justify-items: center;
+    font-size: 110%;
+    font-family: "DM Serif Display", serif;
+}
+
+#oddRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#evenRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #35a596;
+    color: #ffffff;
+}
+
+#evenRowHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #35a596;
+    color: #ffffff;
+}
+
+
+.leftH2 {
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+    font-size: 110%;
+    text-shadow: 1px 0px 3px #598392;
+}
+
+.rightH2 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-right: 30px;
+    font-size: 110%;
+    text-shadow: 1px 0px 4px #598392;
+}
+
+.leftPara1 {
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+}
+
+.leftPara2 {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+}
+
+.rightParaHome {
+    grid-column: 2;
+    align-content: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-top: 70px;
+}
+
+.rightPara1 {
+    grid-column: 2;
+    align-content: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.rightPara2 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.rightPara3 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.rightPara4 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-right: 30px;
+}
+
+.spanPara {
+    grid-column: 1 / span 2;
+    align-self: center;
+    justify-self: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.quote {
+    grid-column: 1 / span 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.vessel {
+    max-width: 85%;
+}
+
+.map {
+    max-width: 300px;
+    max-height: 900px;
+}
+
+.mos {
+    max-width: 300px;
+    max-height: 900px;
+}
+
+#leftMapTop {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#rightMapTop {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#leftMap {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+#rightMap {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+#lastMap {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a img {
+    display: inline;
+}
+
+.leftH2Route {
+    grid-column: 1;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+    font-size: 130%;
+    text-shadow: 1px 0px 3px #598392;
+}
+
+.rightH2Route {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+    font-size: 130%;
+    text-shadow: 1px 0px 3px #598392;
+}
+
+.lastH2Route {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+    font-size: 130%;
+    text-shadow: 1px 0px 3px #598392;
+}
+
+
+#leftImage {
+    grid-column: 1;
+    grid-row: span 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#leftImage2 {
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+#leftImage3 {
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#rightImage {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 10px;
+}
+
+#rightImage2 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 30px;
+}
+
+#rightImage3 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 10px;
+}
+
+#rightImage4 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 0px;
+}
+
+#rightImage5 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    font-size: 75%;
+}
+
+footer .indexReturn {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+footer .findUs {
+    display: inline-block;
+    justify-content: left;
+    margin: 50px 0px 0px 70px;
+}
+
+footer .aboutUs {
+    float: right;
+    margin: 50px 70px 0px 0px;
+}
+
+.grnFoot {
+    background-color: #35a596;
+    color: white;
+}
